@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
 *,
+html,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 .first_card{
@@ -12,6 +20,7 @@
     width: 90%;
     height: 50vh;
     border-radius: 8px 8px 0 0;
+    padding: 15%;
 }
 
 .second_card{
@@ -19,6 +28,7 @@
     margin: 0 5% 0 5%;
     width: 90%;
     height: 50vh;
+    padding: 15%;
 }
 
 .third_card{
@@ -27,4 +37,33 @@
     width: 90%;
     height: 50vh;
     border-radius: 0 0 8px 8px;
+    padding: 15%;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.60);
+    font-size: 1.2em;
+    margin-bottom: 15%;
+    line-height: 1.8;
+    padding: 0 10% 0 0 ;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 3.2em;
+    margin: 15% 0 15% 0;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.buttom{
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
 }
