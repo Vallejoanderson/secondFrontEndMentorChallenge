@@ -71,3 +71,33 @@ h4{
     border-radius: 20px;
     background-color: hsl(0, 0%, 95%);
 }
+
+@media (min-width: 960px){
+    section {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 60%;
+        margin: 10% 0 0 20%;
+    }
+
+    .first_card, .second_card, .third_card{
+        margin: 0;
+        padding: 5% 10% 5% 5%;
+        width: 33%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .first_card{
+        border-radius: 10px 0 0 10px;
+    }
+
+    .third_card{
+        border-radius: 0 10px 10px 0;
+    }
+
+    p{
+        font-size: 1.6em;
+    }
+}
