@@ -16,33 +16,37 @@ html{
 
 .first_card{
     background: hsl(31, 77%, 52%);
+    color:hsl(31, 77%, 52%);
     margin: 20% 5% 0 5%;
     width: 90%;
-    height: 55vh;
+    height: 55%;
     border-radius: 8px 8px 0 0;
     padding: 15%;
 }
 
 .second_card{
     background:  hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
     margin: 0 5% 0 5%;
     width: 90%;
-    height: 55vh;
+    height: 55%;
     padding: 15%;
+
 }
 
 .third_card{
     background: hsl(179, 100%, 13%);
+    color:hsl(179, 100%, 13%);
     margin: 0% 5% 20% 5%;
     width: 90%;
-    height: 55vh;
+    height: 55%;
     border-radius: 0 0 8px 8px;
     padding: 15%;
 }
 
 p{
     color: hsla(0, 0%, 100%, 0.60);
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 15%;
     line-height: 1.8;
     padding: 0 10% 0 0 ;
@@ -52,17 +56,17 @@ h2{
     color: hsl(0, 0%, 95%);
     text-transform: uppercase;
     font-size: 3.2em;
-    margin: 15% 0 15% 0;
+    margin: 15% 0 10% 0;
 }
 
 h4{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .buttom{
     width: 80%;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
     border: 2px solid hsl(0, 0%, 95%);
     border-radius: 20px;
     background-color: hsl(0, 0%, 95%);
