@@ -83,8 +83,8 @@ h4{
 
     .first_card, .second_card, .third_card{
         margin: 0;
-        padding: 5% 10% 5% 5%;
-        width: 33%;
+        padding: 5% 5% 5% 5%;
+        width: 30%;
         height: 100%;
         border-radius: 0;
     }
@@ -99,5 +99,11 @@ h4{
 
     p{
         font-size: 1.6em;
+    }
+
+    .buttom:hover{
+        background-color: inherit;
+        color:hsl(0, 0%, 95%);
+        cursor: pointer;
     }
 }
